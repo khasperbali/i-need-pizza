@@ -101,4 +101,9 @@ var currentOrders = {
 * Run your file with node pizza.js
 * Console.log(currentOrders) to verify changes have been made
 */
-currentOrders.order11821["pizzaSauce"] = "classic marinara"
+currentOrders.order11821.Pizza["Pizza Sauce"] = "classic marinara";
+currentOrders.order11821.Pizza["Toppings"].Veggies = ["onion", "anchovies", "mushrooms", "Spinach"];
+currentOrders.order11821.Pizza["Toppings"].Meat = ["pepperoni", "ham"];
+currentOrders.order11821.orderTime = "20 minutes";
+
+console.log(currentOrders);
